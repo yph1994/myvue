@@ -13,6 +13,7 @@
      redirect(){
          this.$router.replace('/table')
          console.log("aa")
+         console.log("fadf")
      }
     }
   }
