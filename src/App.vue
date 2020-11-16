@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-link to="/helloword">helloworld</router-link>
+    <router-link to="/myinput">myinput</router-link>
     <router-link :to="{name:'table',params:{name:1,sex:'aa'}}">表格</router-link>
     <router-link :to="{name:'myapp',query:{id:1,sex:'bb'}}">测试</router-link>
     <router-view modelName="11"></router-view>
